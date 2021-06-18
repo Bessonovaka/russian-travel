@@ -1,8 +1,10 @@
 .page {
   width: 100%;
+  max-width: 1280px;
   background: #2a2c2f;
   margin: 0 auto;
   color: #fff;
+  padding: 0 48px;
 
   /* Шрифты */
   font-family: "Inter", sans-serif;
