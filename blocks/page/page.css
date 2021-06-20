@@ -20,3 +20,15 @@
   /*Рендеринг*/
   text-rendering: optimizeLegibility;
 }
+
+@media screen and (max-width: 768px) {
+  .page {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    padding: 0 16px;
+  }
+}
