@@ -10,13 +10,14 @@
   opacity: 0.6;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
+  .footer__link {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 355px) {
   .footer__link {
     font-size: 24px;
-    margin-bottom: 32px;
-  }
-
-  .footer__link:last-child {
-    margin-bottom: 48px;
   }
 }

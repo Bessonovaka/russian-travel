@@ -2,10 +2,12 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 364px) {
   .footer__menu {
     flex-direction: column;
+    margin: 0;
   }
 }
